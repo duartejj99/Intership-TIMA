@@ -61,6 +61,9 @@ En que contexto tiene lugar?
 
 ## Problématique
 
+No hay una  cadena de compilacion existente para emular y medir el rendimiento de software ejecutado en una maquina de 128 bits.
+No existe al dia de hoy un punto inicial en el que podamos comenzar a hacernos una idea de las ventajas y posibilidades que podría traer una maquina de estas caracteristicas.
+
 ## Objectif/motivation
 
 
@@ -79,6 +82,9 @@ Therefore we need software to measure performance on 128 bit software, to see th
 
 ## Plan du rapport
 
+
+Esta es una proposicion de via/ruta de acción? (Realmente se me ha hecho dificil comprender esta seccion)
+
 ¿Como introduzco la modificacion de una toolchain adaptada para codigo de 128 bits?
 
 1) Introduccion al concepto de toolchain
@@ -95,14 +101,34 @@ Therefore we need software to measure performance on 128 bit software, to see th
 4) Testing
 
 5) Personal remarks
-6) Conclus
+6) Conclusión
+## ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+2da Propuesta
+
+¿Cual fue la ruta que Sylvain y yo seguimos para el desarrollo de este proyecto?
+
+A grandes rasgos:
+
+1)Saber en qué nos estabamos metiendo
+1.1)Demandar bastante ayuda al profesor con los recursos y conceptos necesarios para entender en qué nos estabamos metiendo exactamente
+
+*comentario para bilan personnel puede ser*
+PD: aqui como persona ajena al primer año de ensimag, tuve la oportunidad de familiarizarme con una cantidad abrumadora de cosas de las que antes no tenía conocimiento
+No vengo con una formación de primer año de informatica, y esto no lo digo en tono de excusa sino para entender cómo este proyecto me ha permitido
+llenar esos "vacíos" de conocimiento que sentia tener con respecto a mis pares de Ensimag. Conocimientos que llegan a ser tomados como garantía
+eran ajenos a mi y presentaban a veces una ventaja grande con respecto a alguien que no tiene la facilidad que ellos.
 
 
-maquinas, computadores, fuerza de computo, desarrollos que 
-En este sentido, 
 
+2) Una vez ya familiarizados con los conocimientos ligados al proyecto en el que entrabamos
 
+Comenzamos a descomponer el trabajo en secciones mas pequeñas, manteniendo la vision global de lo que estabamos haciendo.
 
+Es asi como pasamos al siguiente planteamiento *INSERTAR IMAGEN DE LA DIAPOSITIVA- toolchain*
+
+3) Una vez descompuesto los distintos bloques funcionales que debíamos modificar, se pudo hacer la bifurcación del trabajo entre Sylvain y yo.
+
+4)
 
 
 ## Cuestiones profundas
@@ -122,6 +148,9 @@ gcc et llvm?
 
 #### Desarrollo del informe
 
+Realmente pasé la mayor parte del trabajo aprendiendo sobre RISC-V para poder entender lo que tenia que modificar y arreglar en los problemas que había en binutils con respecto a la adicion de la extension de 128 bits presente y que fue introducida por Ms Frederic Petrot
+
+*aqui debo hacer una lista de cosas las cuales me tocó trabajar (Ver bitacora de stage- no olvidar recoger los papeles)*
 
 
 ## ENTORNO DE DESARROLLO
@@ -145,4 +174,11 @@ basado en -->
 
 ## TESTS
 
-##
+## Anexos
+
+# Repos
+128 test bit
+Qemu
+Binutils
+Gcc
+(Y) 
